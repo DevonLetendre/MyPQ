@@ -15,11 +15,11 @@ Running time of methods in the MyPQ class:
 class MyPQ(PriorityQueue):
 	
 	def findtopk(self,k):
-		"""
+		'''
 		Returns a list of the k items with the highest priority. 
 		If there are fewer than k items in the Priority Queue, 
 		then this returns a list of all that are left.
-		"""
+		'''
 		hp_items = []	
 		if len(self) <= k: 						
 			for i in self._entries:
